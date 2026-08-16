@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a href="#" class="text-decoration-none fw-bold fs-5 logo" style="color: #FFD700;">AFSUN</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-around align-items-center" id="navbarNavDropdown">
+      <ul class="navbar-nav gap-5">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home"><i class=" mx-2 fa-solid fa-house"></i>Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#about"><i class=" mx-2 fa-solid fa-circle-info"></i>About</a>
+        </li>
+         <li class="nav-item dropdown">
+          <a class="nav-link active dropdown-toggle"  href="#features" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="mx-2 fa-solid fa-layer-group"></i>Features</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item text-white"  href="#features" style="background: linear-gradient(to left, #1F4E5F, #2C7A7B);">
+              Luxury Rooms<a></li>
+            <li><a class="dropdown-item text-white"  href="#features" style="background: linear-gradient(to left, #1F4E5F, #2C7A7B);">
+              Beach Access</a></li>
+            <li><a class="dropdown-item text-white"  href="#features" style="background: linear-gradient(to left, #1F4E5F, #2C7A7B);">
+              Culinary Delight</a></li>
+            <li><a class="dropdown-item text-white"  href="#features" style="background: linear-gradient(to left, #1F4E5F, #2C7A7B);">
+              Spa & Wellness</a></li>
+            </ul>
+          <li class="nav-item">
+          <a class="nav-link active" href="#contact"><i class=" mx-2 fa-solid fa-circle-user"></i>Contact</a>
+        </li>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--carousel-->
+<div id="home" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/img-1.jpg" class="d-block w-100" alt="img">
+      <div class="carousel-caption d-none d-md-block text-white">
+        <h5 class="placeholder">Discover Your Perfect Escape.</h5>
+        <p class="description">Experience luxury, breathtaking landscapes, and world-class hospitality in the perfect getaway.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/img-2.jpg" class="d-block w-100" alt="img">
+      <div class="carousel-caption d-none d-md-block  text-white">
+        <h5 class="placeholder">Scenic Resort Views.</h5>
+        <p class="description">Admire the resort's stunning architecture, peaceful surroundings, and unforgettable scenic views.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/img-3.jpg" class="d-block w-100" alt="img">
+      <div class="carousel-caption d-none d-md-block text-white">
+        <h5 class="placeholder">A Grand Welcome Awaits</h5>
+        <p class="description">Step into a beautifully designed lobby where elegance, comfort, and warm hospitality greet you from the very first moment.</p>
+      </div>
+    </div>
+    <!--4,5,6-->
+    <div class="carousel-item">
+      <img src="images/img-4.jpg" class="d-block w-100" alt="img">
+      <div class="carousel-caption d-none d-md-block  text-white ">
+        <h5 class="placeholder">Rest in Pure Luxury</h5>
+        <p class="description">Relax in spacious, beautifully designed rooms that offer exceptional comfort and a peaceful stay.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/img-5.jpg" class="d-block w-100" alt="img">
+      <div class="carousel-caption d-none d-md-block text-white ">
+        <h5 class="placeholder">An Exceptional Dining Experience</h5>
+        <p class="description">Enjoy delicious flavors and elegant dining in a warm, inviting atmosphere crafted for memorable moments.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/img-6.jpg" class="d-block w-100" alt="img">
+      <div class="carousel-caption d-none d-md-block text-white ">
+        <h5 class="placeholder">Breathtaking Terrace Views</h5>
+        <p class="description">Relax and enjoy stunning views in a peaceful open-air setting.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="mt-5 text-white d-flex justify-content-center align-items-center">
+  <h1>NatureNest Resort</h1>
+</div>
+
+<div class="mt-2 text-white  mx-3" id="about">
+  <h3>ABOUT US</h3>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas quisquam repudiandae tempora, necessitatibus accusantium, minima optio velit voluptates autem ut dignissimos nihil assumenda cupiditate, corporis tenetur? Id accusantium nisi placeat ipsa sapiente in ullam sunt temporibus a exercitationem ratione ducimus tenetur mollitia quod, qui quibusdam rem laborum dolorum maiores laboriosam! Eos iure id harum minima rem ea perferendis cum obcaecati! Explicabo distinctio illo est, porro corporis molestias necessitatibus obcaecati accusantium voluptas et error sit dolores nisi! Qui modi voluptas ea natus, at consequuntur veritatis? Ipsum est aperiam explicabo in, asperiores tenetur culpa iusto, obcaecati molestiae laudantium repudiandae molestias minus quibusdam.</p>
+</div>
+<div class="mt-5 d-flex justify-content-center align-items-center gap-4 mb-4">
+<button class="btn text-white border-0 px-3 py-2" id="exploreNow" style="border-radius:70px;background-color:#56c5c6;">EXPLORE NOW</button>
+<button class="btn text-white border-0 px-3 py-2" id="bookNow" style="border-radius:70px;background-color: #56c5c6;">BOOK NOW</button>
+</div>
+<!-- feature-->
+ <div class="mt-5 text-white  mx-3" id="features">
+  <h3>OUR FEATURES</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo veritatis laudantium repellat deleniti quidem neque et, aut libero. Maiores, dolorum quam vero praesentium nesciunt nisi vitae provident alias magnam animi. Fugit distinctio voluptas molestias aspernatur sequi unde accusantium necessitatibus error, qui, alias fuga tempora dolore temporibus iusto natus? Itaque in iusto nobis excepturi quod quam pariatur quasi, exercitationem, illo blanditiis ipsum perspiciatis magnam cumque, quas aliquam tenetur officiis. Officia voluptatem esse repudiandae, nemo soluta maiores sit illo sapiente quos molestiae nihil corrupti inventore quae illum nobis optio voluptatum quis distinctio a non nisi quas earum! Fugit odit vel sequi vitae!</p>
+</div>
+<!-- cards -->
+ <div class="row row-cols-1 row-cols-md-2 g-4 mt-3">
+  <div class="col">
+    <div class="card border-0" style="background: linear-gradient(to left,#2C7A7B, #D4A017);">
+      <img src="images/img-7.jpg" class="card-img-top" style="height: 280px; object-fit: cover;" alt="img">
+      <div class="card-body text-white">
+        <h5 class="card-title placeholder">Luxury Bedroom</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente nam labore vel at laudantium debitis saepe aperiam consequatur aspernatur? Quos sapiente quibusdam quod vel provident aut repudiandae alias consectetur ipsam.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card border-0" style="background: linear-gradient(to left, #1F4E5F, #2C7A7B);">
+      <img src="images/img-8.jpg" class="card-img-top"  style="height: 280px; object-fit: cover;" alt="img">
+      <div class="card-body text-white">
+        <h5 class="card-title placeholder">Seaside Haven</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, et voluptas possimus iure dolor sequi temporibus quae atque deleniti consectetur fugiat. Distinctio fuga esse, ad ratione accusantium et fugit quae.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card border-0" style="background: linear-gradient(to left,#2C7A7B, #D4A017);">
+      <img src="images/img-9.jpg" class="card-img-top" style="height: 280px; object-fit: cover;" alt="img">
+      <div class="card-body text-white">
+        <h5 class="card-title placeholder">Fine Dining</h5>
+        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor itaque laborum et delectus labore perferendis odit, dolorum in, neque molestias rem earum voluptatum temporibus distinctio. Beatae necessitatibus vitae repellat nihil.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card border-0" style="background: linear-gradient(to left, #1F4E5F, #2C7A7B);">
+      <img src="images/img-10.jpg" class="card-img-top" style="height: 280px; object-fit: cover;" alt="img">
+      <div class="card-body text-white">
+        <h5 class="card-title placeholder">Relaxing Spa</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis culpa ad inventore dignissimos expedita qui optio animi enim quos. Aperiam ipsam molestias unde tempora provident saepe nemo. Similique, laboriosam fuga.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--footer-->
+<footer class="py-5 mt-5">
+  <div class="container">
+    <div class="row g-4">
+<!-- Resort Info -->
+      <div class="col-lg-4 col-md-6">
+        <h3 id="resortName">Nature Nest Resort</h3>
+        <p id="resortDescription">
+          Experience luxury, comfort, and nature in one perfect destination.
+        </p>
+      </div>
+<!-- Quick Links -->
+      <div class="col-lg-2 col-md-6" id="contact">
+        <h5 class="placeholder">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#home" class="text-decoration-none">Home</a></li>
+          <li><a href="#about" class="text-decoration-none">About Us</a></li>
+          <li><a href="#features" class="text-decoration-none">Features</a></li>
+          <li><a href="#contact" class="text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+<!-- Facilities -->
+      <div class="col-lg-3 col-md-6">
+        <h5 class="placeholder">Our Facilities</h5>
+        <ul class="list-unstyled" id="featureslist">
+          <li>Luxury Rooms</li>
+          <li>Fine Dining</li>
+          <li>Relaxing Spa</li>
+          <li>Seaside Haven</li>
+          <li>Swimming Pool</li>
+        </ul>
+      </div>
+<!-- Contact -->
+      <div class="col-lg-3 col-md-6">
+        <h5 class="placeholder">Contact Us</h5>
+        <p><i class="fa-solid fa-location-dot"></i> Dubai, UAE</p>
+        <p><i class="fa-solid fa-phone"></i> +971 XX XXX XXXX</p>
+        <p><i class="fa-regular fa-envelope"></i> info@naturenestresort.com</p>
+      </div>
+</div>
+<hr>
+<!-- Bottom Footer -->
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <p class="mb-0">
+          © 2026 Nature Nest Resort. All Rights Reserved.
+        </p>
+      </div>
+<div class="col-md-6 text-md-end">
+        <a href="#" class="me-3 text-decoration-none"><i class="fa-brands fa-facebook"></i> Facebook</a>
+        <a href="#" class="me-3 text-decoration-none"><i class="fa-brands fa-instagram"></i> Instagram</a>
+        <a href="#" class="text-decoration-none"><i class="fa-brands fa-youtube"></i> YouTube</a>
+      </div>
+    </div>
+</div>
+</footer>
+<!--footer end-->
+<script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
