@@ -38,4 +38,3 @@ This project was created to practice and improve skills in:
 Front-End Web Development,
 CS Student.
 
-This project is created for educational and portfolio purposes.
